@@ -1,0 +1,14 @@
+﻿docker-compose -f docker.yml up -d
+
+-f docker.yml: This flag specifies the file to use for the Docker Compose configuration. 
+In this case, it's using a file named docker.yml. Typically, the default filename is docker-compose.yml, 
+but this command is explicitly specifying a different filename.
+
+up: This subcommand tells Docker Compose to create and start the containers defined in the configuration file.
+
+
+How to maintain latest datas at ElasticSearch
+
+- Change Data Capture from MSSQL
+- Triggers from MSSQL
+- Background services such as Hangfire
